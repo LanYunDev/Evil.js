@@ -1,6 +1,6 @@
 {
-  "name": "adj-ordinaryjs",
-  "version": "1.0.4",
+  "name": "ordinaryjs",
+  "version": "2.0.2",
   "description": "常用函数扩展库",
   "main": "build/adj-ordinaryjs.min.js",
   "scripts": {
@@ -8,8 +8,9 @@
     "build": "rm -rf build && mkdir build && uglifyjs --compress --mangle --output build/adj-ordinaryjs.min.js -- index.js"
   },
   "keywords": [],
-  "author": "chao325",
+  "author": "LanYun",
   "license": "ISC",
+  "license": "UNLICENSED",
   "devDependencies": {
     "uglify-js": "^3.13.3"
   }
